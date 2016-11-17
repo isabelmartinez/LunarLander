@@ -8,3 +8,4 @@
     - He añadido mi propio botón de "Opciones" (no pasaron ninguno).
     - He ajustado el tamaño de la imagen de la nave (el tamaño entregado era demasiado grande).
     - He cambiado la manera de representar el panel de control (no sabía hacer el requerido).
+    - He borrado el fondo de la imagen de la luna (era una imagen con fondo blanco).
