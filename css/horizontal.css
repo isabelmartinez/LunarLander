@@ -1,0 +1,159 @@
+
+html{
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	height: 100%;
+	width: 100%;
+	
+}
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+	background-image:url(../img/estrellas.png);
+	background-repeat:repeat;
+	
+}
+
+#contenedor{
+	width: 100%; 
+	height: 100%;
+	background-image:url(../img/tierra.png);
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	position:absolute;
+	
+}
+
+.izquierda{
+	height: 100%;
+	width: 33%; 
+	float:left;
+	
+}
+.centro{
+	width: 33%; 
+	height: 100%;
+	float:left;
+}
+
+.derecha{
+	width: 33%; 
+	height: 100%;
+	float:left;
+	
+}
+
+.panel_control{
+	width:100%;
+	height:100%;
+	left:0px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:large;
+	font-weight:bold;
+}
+
+.panel_control img{
+    margin-top: 3%;
+    margin-left: 3%;
+    height: 10%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#margen1{
+    margin-left: 5%;
+}
+
+#margen2{
+    margin-left: 9%;
+}
+
+#nave{
+	background-repeat:no-repeat;
+	height: 15%;
+	width: 20%;
+	margin: 40%;
+}
+
+.menu_botones{
+    width: 20%;
+    height: 10%;
+	float:right;
+    margin-top: 100%;
+    margin-right: 3%;
+}
+
+
+#informacion{
+	height: 10%;
+	width: 20%;
+	float:right;
+	margin-top:3%;
+	margin-right: 3%;
+	
+}
+
+#img_play{
+	height:100%;
+	width: 100%;
+}
+
+
+#img_pausa{
+	height:100%;
+	width: 100%;
+}
+
+#img_reinicio{
+	height:100%;
+	width: 100%;
+}
+
+.luna {	
+	width: 100%; 
+	height: 15%;	
+	background: url(../img/fondo_lunar.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+			
+}
+
+.texto_info{
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:large;
+	font-weight:bold;
+	
+}
+
+#panel_info{
+    border: outset;
+	border-color:#339;
+	background-color:#A5D7F1;	
+	border-radius: 10px 10px 10px 10px;
+	opacity:0.6;
+    padding-top: 1%;
+	padding-left:2%;
+	padding-right:1%;
+	margin-top:10%;
+	margin-left:15%;
+	overflow:auto;
+    position: absolute;
+    height: 50%;
+    width: 65%;
+}
+
+h1{
+	text-align:center;
+}
+p{
+	text-align:justify;
+}
